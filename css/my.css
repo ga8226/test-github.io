@@ -1,5 +1,5 @@
 .swiper-slide{
-    height: 800px;
+    height: 100vh;
     font-size:20px;
     display: flex;
     flex-direction: column;
@@ -17,3 +17,16 @@
 #slide3{
     background: yellow;
 }
+
+
+@media (min-width:991px) {
+    .swiper  br {
+        display: none;
+    }
+    .swiper-slide{
+        height: 800px;}
+}
+
+/* 반응형 짤 때 maxwidth 말고 min-width으로 짜는게 제일 좋고 보통 우리나라는 폰트 때문에 맥스로 많이쓴다
+ 반응형 할 때 @media 쓰면 웹 반응형으로 쓰겠다 */
+ /* 991사이즈 (lg) 일때  */

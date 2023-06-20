@@ -29,13 +29,13 @@
         </div>
           <div class="swiper-slide" id="slide2">
             <div class="d-flex text-white" >
-                <i class="bi bi-patch-exclamation"></i><p>플러그인은반드시 버전기입 plz</p>
+                <i class="bi bi-patch-exclamation"></i><p>플러그인은<br>반드시 버전기입 plz</p>
             </div>
         </div>
           <div class="swiper-slide" id="slide3">
             <div class="d-flex text-black">
                 <i class="bi bi-rocket-takeoff"></i>
-                <p>플러그인 실행식 위치중요</p>
+                <p>플러그인<br> 실행식<br> 위치중요</p>
             </div>
         </div>
          
@@ -43,8 +43,12 @@
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
 
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-button-next"></div>
+        <!-- lg사이즈 이하일 때는 안보이고 lg 이상일때 보여라 -->
+        <div class="d-none d-lg-block">
+            <div class="swiper-button-prev"></div> 
+            <div class="swiper-button-next"></div>
+        </div>
+       
       </div>
 
       
